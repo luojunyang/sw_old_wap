@@ -1,0 +1,31 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    font-family: "Microsoft YaHei",sans-serif;
+    color:#000;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+input,textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+.clearfix::before,.clearfix::after{
+    content: ' ';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}

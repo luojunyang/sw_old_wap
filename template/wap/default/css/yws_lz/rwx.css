@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
+.title{
+    text-align: center;
+    padding: 110px 0px;
+    font-size: 3rem;
+    color:#48C7FB;
+}
+.share-model{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+    top:0px;
+    text-align: right;
+}
+.share-model>img{
+    width: 50%;
+    position: relative;
+    top:5em;
+    left:-13em;
+}
+#head>img{
+    width: 100%;
+}
+#button{
+    text-align: center;
+}
+#button>input{
+    width: 40%;
+    border:0;
+}
+#button>input:focus{
+    　　border:0;
+}
+.top_img{
+    position: relative;
+    width: 100%;
+    height: 338px;
+}
+.tree{
+    width: 50%;
+}
+.travel{
+    position: relative;
+    top:-9em;
+    left:0em;
+    width: 44%;
+}
+#banner {
+    width: 100%;
+    height: 674px;
+    background:  url(../images/yws_lz/tour/images/adv.png) no-repeat ;
+}
+.title1{
+    text-align: center;
+    color:#48C7FB;
+    position: relative;
+    z-index: 999;
+    top:-6.3em;
+    left:8em;
+}
+#banner>p{
+    position: relative;
+    z-index: 999;
+    top:-11rem;
+    left:6rem;
+    text-indent: 2rem;
+    line-height: 3.7rem;
+    width:80%;
+    font-size: 2.2rem;
+}
+.favo{
+    width: 100%;
+    padding-bottom: 14rem;
+    /*  height: 176px;
+      background: url("../img/images/1_05.png") no-repeat;*/
+}
+.img5{
+    width: 20%;
+    height: 266px;
+    float: left;
+}
+.img4{
+    width: 80%;
+    height: 292px;
+    float: right;
+}
+#container{
+    margin-top: 2em;
+    width: 100%;
+}
+#container>img{
+    width: 30%;
+    margin-left: 1.4em;
+}
+#name{
+    display: flex;
+}
+#name>div{
+    margin-left: 1.5em;
+    width: 30%;
+}
+#name>div>b{
+    font-size: 4em;
+    font-weight: normal;
+    color:#0084FF;
+}
+#name>div>span{
+    font-size: 2.5em;
+    display: inline-block;
+    position: relative;
+    top:-0.2em;
+    left:0.3em;
+}
+#name>div>p{
+    font-size: 1.8em;
+    width: 100%;
+}
+#name1{
+    margin-top: 4em;
+}
+
+#name1>img{
+    width: 100%;
+}
+#button2{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+#button2>input{
+    width: 40%;
+    outline: none;
+}
+.name11 {
+    width: 45%;
+    float: left;
+    /* top: -6em;
+     position: absolute;*/
+}
+.name22{
+    width: 45%;
+    float: right;
+}
+
+#name1>span>b{
+    font-size: 4em;
+    font-weight: normal;
+    color:#0084FF;
+}
+#name1>span>span{
+    font-size: 2.5em;
+    display: inline-block;
+    position: relative;
+    top:-0.2em;
+    left:0.3em;
+}
+#name1>span>p{
+    font-size: 2.0em;
+    width: 100%;
+}
+#name2{
+    /* margin-top: 3em;*/
+}
+#name2>img{
+    width: 30%;
+    margin-left: 1em;
+}
+.img1{
+    width: 60%;
+    margin-top: 4em;
+}
+.img3{
+    width: 100%;
+    margin-top: 2em;
+}
+#info{
+    width: 100%;
+}
+
+#info>.bg{
+    width: 90%;
+    margin: 8em auto;
+    background: #F8C742;
+    border-radius: 50px;
+
+}
+#info>div>h1{
+    width: 100%;
+    padding-bottom: 0.5em;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#wenzi {
+    background: #F8C742;
+    padding: 3rem;
+    min-height: 562px;
+    border-radius: 70px;
+    margin:9rem 3rem;
+    margin-bottom: 6rem;
+}
+#wenzi>p{
+    width: 100%;
+    line-height: 4rem;
+    background:#F8C742;
+    padding-left: 1rem;
+}
+#button1{
+    text-align: center;
+    padding-bottom: 4rem;
+}
+#button1>input{
+    width: 40%;
+    outline: none;
+}
+.erweima>img{
+    width: 35%;
+}
+.erweima{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+#foot>p{
+    text-align: center;
+    width: 66%;
+    margin: 0 auto;
+    font-size: 2em;
+    padding-top: 0.8em;
+    padding-bottom: 1rem;
+}
+#foot>img{
+    width: 100%;
+}
+#intro{
+    width: 90%;
+    margin: auto;
+}
+#intro b{
+    font-size: 4em;
+    font-weight: normal;
+    color:#0084FF;
+}
+#intro>span>span{
+    font-size: 2.5em;
+    display: inline-block;
+    position: relative;
+    top:-0.2em;
+    left:0.3em;
+}
+#intro p{
+    font-size: 1.8em;
+    width: 100%;
+}
+

@@ -1,0 +1,125 @@
+div{text-align: center;font-size: 12px}
+a{text-decoration:none;overflow: hidden;}
+p{margin: 5px 0px;font-size: 12px;font-weight: 200;text-align: left;color: #666;}
+.clear{clear: both;}
+.title_1{
+    font-weight: bold;
+    margin: 30px;
+}
+.title_1_first{
+    font-size: 28px;
+    font-weight: bold;
+}
+.title_1_last{
+    font-size: 16px;
+}
+.title_1_bottom{
+    font-size: 14px;
+    width: 55%;
+    margin:0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.adv_tips{
+    width: 70%;
+    margin: 70px auto;
+    overflow: hidden;
+}
+.adv_tips_left{
+    padding-top: 15px;
+    float: left;
+    font-size: 28px;
+}
+.adv_tips_right{
+    float: right;
+}
+.cha{
+    font-size: 20px
+}
+.eng{
+    font-size: 16px;
+}
+.desc{
+    overflow: hidden;
+    background-image: url('./123.png') no-repeat;
+    margin: 40px;
+}
+
+.title{
+    font-size: 16px;
+    margin: 15px;
+}
+
+.desc_desc{
+    width: 75%;
+    float: right;
+    text-align: left;
+}
+
+.body_1{
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.body_1_title{
+    font-size: 16px;
+    margin: 40px;
+}
+.active_1{
+    height: 100px;
+    width: 45%;
+    float: right;
+    background-color: #d1d1d1;
+
+}
+.active_2{
+    float: left;
+}
+.tour_name{
+    padding:5px 5px;
+    text-align: left;
+    font-size: 14px;
+    height: 50%;
+    border-bottom: 1px solid #333;
+    box-sizing: border-box;
+}
+.show_price{
+    height: 50%;
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.price{
+    color:red;
+}
+.market_price{
+    color: #ddd;
+    text-decoration: line-through;
+}
+
+.rate_tips{
+    text-align: left;
+    margin: 10px 0px;
+}
+.share{
+    width: 120px;
+    height: 40px;
+    border:1px solid #000;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 39px;
+    margin:20px auto;
+    background-color: #f2f2f2;
+}
+.code{
+    width:50%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.adv_desc .say{
+    margin: 30px;
+    font-size: 16px;
+}

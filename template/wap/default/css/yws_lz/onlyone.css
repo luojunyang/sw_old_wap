@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+a,ul,li,p,h1,h2,h3,h4,h5,h6,input,dl,dd,dt,body,html{
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    color:#000000;
+    outline:none;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+#bg{
+    width: 100%;
+    position: relative;
+}
+#bg>.bg1{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+#bg>.banner{
+    width: 100%;
+}
+.content{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    background: #692090;
+    border-radius: 30px;
+    /*min-height: 750px;*/
+    overflow: auto;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.baokuan{
+    width: 26%;
+    margin-top: 1.5rem;
+    padding-bottom: .5rem;
+}
+.chanpin{
+    width: 100%;
+    padding: .8rem 0;
+}
+.pic{
+    width: 60%;
+    float: left;
+}
+.info{
+    width: 40%;
+    float: right;
+    position: relative;
+    top:1rem;
+}
+.info h5{
+    color:#EFDA88;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: relative;
+    left:-.8rem;
+}
+.info>span{
+    color:#D69E44;
+    font-size: .5rem;
+    position: relative;
+    left:-.5rem;
+}
+.info>i{
+    color:white;
+    font-size: 1.5rem;
+    position: relative;
+    left:-.5rem;
+}
+.info>i>span{
+    font-size: .5rem;
+}
+.info>img{
+    position: relative;
+    top:0.5rem;
+    left:-.3rem;
+    width: 70%;
+}
+
+a{
+    display: block;
+    /*overflow: auto;*/
+    margin-top: 1rem;
+    outline: none;
+    text-decoration: none;
+
+}
+a:active {color: #000000}
+.info1{
+    width: 40%;
+    position: relative;
+    top:1rem;
+    float: left;
+}
+.pic1{
+    float: right;
+    width: 60%;
+}
+.info1 h5{
+    color:#EFDA88;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.info1>span{
+    color:#D69E44;
+    font-size: .5rem;
+}
+.info1>i{
+    color:white;
+    font-size: 1.5rem;
+}
+.info1>i>span{
+    font-size: .5rem;
+
+}
+.info1>img{
+    position: relative;
+    top: 0.5rem;
+    left: .2rem;
+    width: 70%;
+}
+#footer{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+   padding-top: 3rem;
+    background:url(../images/yws_lz/onlyone/bg3.png);
+    padding-bottom: 2rem;
+}
+#footer img{
+    width: 24%;
+    padding-bottom: 2rem;
+}
+#footer p{
+    margin: 0;
+    color:white;
+    font-size: .8rem;
+    line-height: 2rem;
+
+}
+

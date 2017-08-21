@@ -1,0 +1,51 @@
+html,body{
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#main>img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0rem;
+    left:0rem;
+    z-index:-2;
+}
+.content{
+    width: 100%;
+    position: relative;
+    height: 60%;
+    background: url(../../images/yws_lz/agent/join-us.png) no-repeat;
+    background-size: 95% auto;
+    background-position: 82% 3rem;
+    text-align: center;
+}
+.content>h3,.content>p{
+    transform: rotate(-10deg);
+    color:white;
+    font-weight: bold;
+    position: relative;
+    top:66.5%;
+    font-size: 1.2rem;
+}
+.content>p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+.content>p>span{
+    color: #F42F0F;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background: white;
+}
+#main>a{
+    display: block;
+    text-align: center;
+}
+#main>a>img{
+    width: 80%;
+    margin-top: -1rem;
+}

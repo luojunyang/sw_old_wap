@@ -1,0 +1,103 @@
+html,body{
+    height: 100%;
+    position: relative;
+}
+.main{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+}
+.main>img{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+}
+.person-info{
+    width: 100%;
+}
+.person-info>div:first-child{
+    text-align: center;
+    width: 100%;
+}
+.person-info>div>img{
+    width: 18%;
+    margin-top: 1rem;
+}
+.info1{
+    position: absolute;
+    top:16.4%;
+    left:39%;
+    font-size: .75rem;
+    width: 50%;
+}
+.info1>p{
+    line-height: 1rem;
+}
+.info1>p:nth-child(2)>span{
+    color:#F73F3F;
+}
+.pic{
+    width: 100%;
+    position: fixed;
+    bottom:4.5rem;
+    text-align: center;
+}
+.pic>p{
+    font-size: .8rem;
+}
+.pic>p:first-child{
+   margin-bottom: .3rem;
+    color:white;
+}
+.pic>p:nth-child(2){
+    color:#000;
+}
+.pic>i{
+    display: block;
+    width: 48%;
+    height: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    background: #FFEBD2;
+    margin-left: 26%;
+}
+.img1{
+    width: 48%;
+    padding: .2rem;
+    border-top: 2px solid #EBA7A4;
+    border-bottom: 2px solid #EBA7A4;
+}
+.img2{
+    width: 27%;
+    margin-top: 1rem;
+}
+.toolbar{
+    width: 100%;
+    height: 55px;
+    background: #F5F5F5;
+    position: fixed;
+    bottom: -1px;
+    display: flex;
+    text-align: center;
+    border-top:1px solid #C9C6C6;
+}
+.toolbar>div{
+    padding-top: .1rem;
+    width: 33%;
+}
+.toolbar>div>p {
+    font-size: .8rem;
+    position: relative;
+}
+.icon{
+    width: 1.7rem;
+    height:1.7rem;
+    font-size: .9rem;
+    overflow: hidden;
+}
+.active{
+    fill: #1296DB;
+    color:#1296DB;
+}

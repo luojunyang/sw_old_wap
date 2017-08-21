@@ -1,0 +1,117 @@
+.con {
+    background: url("../images/yws_lz/cjzg/bg.jpg") no-repeat center / cover;
+    width: 100%;
+    height: 100%;
+}
+.con .con-box {
+    padding-top: 1.5rem ;
+    position: relative;
+}
+.con .con-box ul li:nth-of-type(n+4) {
+    align-self: center;
+}
+.con .con-box ul li:first-child {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    transform: translate(0, -10rem);
+    -webkit-transform: translate(0, -10rem);
+}
+.con .con-box ul li:nth-of-type(2n+2) {
+    float: left;
+    text-align: left;
+    transform: translate(-10rem, 0);
+    -webkit-transform: translate(-10rem, 0);
+}
+.con .con-box ul li:nth-of-type(2n+3) {
+    float: right;
+    text-align: right;
+    transform: translate(5rem, 0);
+    -webkit-transform: translate(5rem, 0);
+}
+/*.con .con-box ul li:last-child {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    transform: translate(0, 10rem);
+    -webkit-transform: translate(0, 10rem);
+}*/
+.con .con-box ul li {
+    padding: .2rem .5rem;
+    width: 50%;
+    font-size: .24rem ;
+    height: 1rem;
+    margin-bottom: .35rem;
+}
+.con .con-box ul li.active {
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+}
+.con .con-box ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.con .con-box ul li a span {
+    background-color: red;
+    color: #fff;
+    padding: .15rem;
+    border-radius: .1rem;
+    line-height: .6rem;
+    text-align: center;
+}
+.con .con-box ul li:nth-of-type(2) span{
+    margin-left: .6rem;
+}
+.con .con-box ul li:nth-of-type(3) span {
+    margin-right: .6rem;
+}
+.con .con-box ul li:nth-of-type(8) span {
+    margin-left: 1.4rem;
+}
+.con .con-box ul li:nth-of-type(9) span{
+    margin-right: 1.4rem;
+}
+.con .con-box ul li:nth-of-type(1) a span {
+    background-image: linear-gradient(to right, #f75bcb, #fef9d7);
+}
+.con .con-box ul li:nth-of-type(2) a span {
+    background-image: linear-gradient(to right, #ffb199, #ff0844);
+}
+.con .con-box ul li:nth-of-type(3) a span {
+    background-image: linear-gradient(to right, #f5576c, #f093fb);
+}
+.con .con-box ul li:nth-of-type(4) a span {
+    background-image: linear-gradient(to right, #f1604d, #b6cee8);
+}
+.con .con-box ul li:nth-of-type(5) a span {
+    background-image: linear-gradient(to right, #c683ef, #5ee7df);
+}
+.con .con-box ul li:nth-of-type(6) a span {
+    background-image: linear-gradient(to right, #00f2fe, #4facfe);
+}
+.con .con-box ul li:nth-of-type(7) a span {
+    background-image: linear-gradient(to right, #f9f586, #64e19d);
+}
+.con .con-box ul li:nth-of-type(8) a span {
+    background-image: linear-gradient(to right, #43e97b, #38f9d7);
+}
+.con .con-box ul li:nth-of-type(9) a span {
+    background-image: linear-gradient(to right, #00c9ff, #92fe9d);
+}
+.con .con-box ul li:nth-of-type(10) a span {
+    background-image: linear-gradient(to right, #7faefd, #fbc2eb);
+}
+.con .con-box .logo {
+    position: absolute;
+    width: 2.8rem;
+    height: 2.8rem;
+    background: url("../images/yws_lz/gxdz/logo.png") no-repeat center;
+    background-size: 80%;
+    top: 3.4rem;
+    left: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #fff;
+    border: 1px solid #fff;
+    margin-left: -1.4rem;
+}
